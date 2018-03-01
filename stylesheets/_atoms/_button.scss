@@ -1,0 +1,58 @@
+.default-button {
+  @extend .btn;
+  padding: 1em 2.5em;
+  font-size: 1em;
+  border: 2px solid $ui-04;
+  color: $ui-02;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  &.-rounded {
+    width: 50px;
+    height: 50px;
+    padding: 0.5em;
+    border-radius: 25px;
+  }
+  
+  &.-icon {
+    >.glyphicon {
+      font-size: 3.5em;
+      line-height: 0.6;
+    }
+  }
+  
+  &.coloredbase {
+    border: none;
+    color: $white;
+  }
+  
+  &.-submitcolor {
+    @extend .coloredbase;
+    background-color: $grass;
+    border-color: $grass;
+  }
+  
+  &.-bluecolor {
+    @extend .coloredbase;
+    background-color: $ui-02;
+    border-color: $ui-02;
+  }
+  
+  &.-orangestant {
+    @extend .coloredbase;
+    background-color: $brand-01;
+    border-color: $brand-01;
+  }
+  
+  &.-graycolor {
+    @extend .coloredbase;
+    background-color: $ui-03;
+    border-color: $ui-03;
+  }
+  
+  &.-uppercasetext {
+    text-transform: uppercase;
+  }
+
+}

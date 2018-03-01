@@ -1,0 +1,18 @@
+.default-checkbox {
+    @extend .checkbox;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+
+    &:hover input {
+        background-color: #ccc;
+    }
+
+    >.checkboxinput {
+        margin-right: 1em;
+    }
+
+    &.-disabled {
+        @extend .disabled;
+    }
+}

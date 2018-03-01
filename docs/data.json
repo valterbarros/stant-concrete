@@ -1,0 +1,283 @@
+{
+    "project_logo": null,
+    "project_favicon": "favicon.png",
+    "project_name": "CONCRETE v0.1.0",
+    "project_url": null,
+    "copyright_start_year": null,
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": null,
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Stant",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "./app/css/main.css"
+        ],
+        "js": [
+            "./app/js/stant-ui-library.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "Typography",
+            "title": "Typography",
+            "components": [
+                {
+                    "group": "Typography",
+                    "name": "h3",
+                    "title": "h3",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "icons",
+            "title": "Icons",
+            "components": [
+                {
+                    "group": "icons",
+                    "name": "default",
+                    "title": "Default"
+                }
+            ]
+        },
+        {
+            "name": "button",
+            "title": "Button",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "group": "button"
+                },
+                {
+                    "group": "button",
+                    "name": "colored",
+                    "title": "Colored",
+                    "width": "half"
+                },
+                {
+                    "group": "button",
+                    "name": "icon-rounded",
+                    "title": "Icon Rounded",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "input",
+            "title": "Input",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "group": "input"
+                },
+                {
+                    "group": "input",
+                    "name": "disabled",
+                    "title": "Disabled",
+                    "width": "half"
+                },
+                {
+                    "group": "input",
+                    "name": "with-label",
+                    "title": "With Label",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "select",
+            "title": "Select",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "group": "select"
+                }
+            ]
+        },
+        {
+            "name": "radio",
+            "title": "Radio",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "group": "radio"
+                }
+            ]
+        },
+        {
+            "name": "checkbox",
+            "title": "Checkbox",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Checkbox",
+                    "width": "half",
+                    "group": "checkbox"
+                }
+            ]
+        },
+        {
+            "name": "card",
+            "title": "Card",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                },
+                {
+                    "name": "text-bold",
+                    "title": "Text Bold",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                },
+                {
+                    "group": "card",
+                    "name": "image",
+                    "title": "Image Card",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
+                },
+                {
+                    "name": "icon-on-end",
+                    "title": "Icon On End",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                },
+                {
+                    "name": "action-icons",
+                    "title": "Action Icons",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                },
+                {
+                    "name": "big-title",
+                    "title": "Big Title",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                },
+                {
+                    "name": "detailed",
+                    "title": "Detailed Data",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "card"
+                }
+            ]
+        },
+        {
+            "name": "image",
+            "title": "image",
+            "components": [
+                {
+                    "group": "image",
+                    "name": "avatar",
+                    "title": "Avatar Image",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "modal",
+            "title": "Modal",
+            "components": [
+                {
+                    "group": "modal",
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "breadcrumb",
+            "title": "Breadcrumb",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Default",
+                    "width": "half",
+                    "group": "breadcrumb"
+                }
+            ]
+        },
+        {
+            "name": "list",
+            "title": "List",
+            "components": [
+                {
+                    "name": "item",
+                    "title": "List Item",
+                    "width": "half",
+                    "group": "list"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5"
+}

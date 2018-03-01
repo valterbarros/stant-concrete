@@ -1,0 +1,13 @@
+.avatar-box {
+  >.circleimg {
+    @extend .img-circle;
+    width: 2.3em;
+    height: 2.3em;
+  }  
+
+  >.nametext {
+    padding-left: 0.5em; 
+    color: $gray-dark-color;
+    font-weight: 300;
+  }
+}

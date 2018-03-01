@@ -1,0 +1,93 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  >.imagecard {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    & ~ .whitecontainer {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}
+
+.whitecontainer {
+  background-color: #FFF;
+  color: $brand-02;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  &.-actionicons {
+    justify-content: center;
+    padding-top: 1.2em; 
+    padding-bottom: 1.2em; 
+
+    >.actionicon {
+      &:last-child {
+        margin-right: 0em;
+      }
+    }
+  }
+
+  &.-endicon {
+    justify-content: space-between;
+  }
+
+  &.-textbolded {
+    font-weight: bold;
+  }
+
+  >.texttitle {
+    padding-top: 1.5em; 
+    padding-bottom: 1.5em; 
+    padding-right: 1em; 
+    padding-left: 1em; 
+  }
+
+  >.actionicon {
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 0.5em;
+    
+  }
+}
+
+.big-title {
+  width: 100%;
+  padding-bottom: 0.7em;
+  margin: 1em;
+  font-size: 1.5em;
+  font-weight: 800;
+  border-bottom: 2px solid $ui-04;
+  color: $brand-02;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: $brand-02;
+  background-color: #FFF;
+  padding: 1.6em;
+  padding-top: 0;
+}
+
+.basic-item {
+  flex-direction: column;
+  display: flex;
+  margin-right: 0.5em; 
+
+  >.title {
+    font-weight: 600;
+    margin-bottom: 0.2em;
+  }
+
+  >.description {
+
+  }
+}

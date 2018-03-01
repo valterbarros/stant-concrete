@@ -1,0 +1,20 @@
+.default-breadcrumb {
+
+  >.breadcrumbitem {
+    color: $gray-color;
+    font-weight: 300;
+    font-size: 1.2em;
+      
+    &:not(:last-child):after {
+        content: '/';
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
+
+  >.active {
+    color: $blue-color;
+    font-weight: 500;
+  }
+  
+}
