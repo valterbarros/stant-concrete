@@ -1,6 +1,9 @@
-import 'jquery';
+import * as $ from 'jquery';
 import 'bootstrap-sass/assets/javascripts/bootstrap';
+import 'multiselect-two-sides'
 
-export const dropdownInit = () => {
-    // alert("teste")
+export const init = () => {
+    $('#multiselect').multiselect();
 }
+
+init()

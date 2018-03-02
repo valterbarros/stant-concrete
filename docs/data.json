@@ -134,6 +134,12 @@
                     "title": "Default",
                     "width": "half",
                     "group": "select"
+                },
+                {
+                    "group": "select",
+                    "name": "multiple",
+                    "title": "Multiple",
+                    "width": "half"
                 }
             ]
         },
