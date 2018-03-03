@@ -34,7 +34,8 @@
             "./app/css/main.css"
         ],
         "js": [
-            "./app/js/stant-ui-library.js"
+            "./app/js/concrete_library.js",
+            "./app/js/astrum_init.js"
         ]
     },
     "font_libraries": {
@@ -121,6 +122,12 @@
                     "group": "input",
                     "name": "with-label",
                     "title": "With Label",
+                    "width": "half"
+                },
+                {
+                    "group": "input",
+                    "name": "file-upload",
+                    "title": "File Upload",
                     "width": "half"
                 }
             ]

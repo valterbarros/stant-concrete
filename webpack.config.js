@@ -2,13 +2,13 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: [
-    'babel-polyfill',
-    './javascripts/init',
-  ],
+  entry: {
+    concrete_library: './javascripts/init',
+    astrum_init: './javascripts/astrum_init'
+  },
   output: {
     path: __dirname + '/docs/app/js',
-    filename: 'stant-ui-library.js'
+    filename: '[name].js'
   },
   module: {
     loaders: [

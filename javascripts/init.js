@@ -1,9 +1,17 @@
 import * as $ from 'jquery';
 import 'bootstrap-sass/assets/javascripts/bootstrap';
 import 'multiselect-two-sides'
+import { handlerInputFileClick } from './input_file'
 
-export const init = () => {
+const init = () => {
     $('#multiselect').multiselect();
 }
 
-init()
+class StantConcrete{
+  start(){
+    init()
+    handlerInputFileClick()
+  }
+}
+
+export { StantConcrete }
