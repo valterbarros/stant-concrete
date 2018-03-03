@@ -76,7 +76,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__init__ = __webpack_require__(50);
 
 
-new stantConcrete().start()
+new __WEBPACK_IMPORTED_MODULE_0__init__["stantConcrete"]().start()
 
 
 /***/ }),

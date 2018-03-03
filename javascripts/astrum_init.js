@@ -1,3 +1,3 @@
-import { StantConcrete } from './init'
+import { stantConcrete } from './init'
 
 new stantConcrete().start()
