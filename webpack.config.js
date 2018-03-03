@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    concrete_library: './javascripts/init',
+    concrete_library: ['babel-polyfill' ,'./javascripts/init'],
     astrum_init: './javascripts/astrum_init'
   },
   output: {
