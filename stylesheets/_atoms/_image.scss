@@ -1,6 +1,6 @@
 .avatar-box {
   >.circleimg {
-    @extend .img-circle;
+    @extend .rounded-circle;
     width: 2.3em;
     height: 2.3em;
   }  

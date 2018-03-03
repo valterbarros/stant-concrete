@@ -10,11 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "astrum": "^1.9.5",
+    "autoprefixer": "^8.1.0",
     "babel-polyfill": "^6.26.0",
-    "bootstrap-sass": "^3.3.7",
+    "bootstrap": "^4.0.0",
+    "exports-loader": "^0.7.0",
+    "imports-loader": "^0.8.0",
     "jquery": "^3.3.1",
     "multiselect": "^0.9.12",
-    "multiselect-two-sides": "^2.5.0"
+    "multiselect-two-sides": "^2.5.0",
+    "popper.js": "^1.12.9",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "tether": "^1.4.3"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
